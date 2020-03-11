@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="18dp"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<SeekBar
+    android:id="@+id/seekbar_btn1"
+    style="@style/Widget.AppCompat.SeekBar.Discrete"
+    android:layout_width="90dp"
+    android:layout_height="18dp"
+    android:layout_gravity="center"
+    android:background="@null"
+    android:max="100"
+    android:rotation="270"
+    android:splitTrack="true"/>
+</RelativeLayout>
